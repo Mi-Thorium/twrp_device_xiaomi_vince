@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_uter.mk
+    $(LOCAL_DIR)/twrp_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_uter-user \
-    twrp_uter-userdebug \
-    twrp_uter-eng
+    twrp_vince-user \
+    twrp_vince-userdebug \
+    twrp_vince-eng
