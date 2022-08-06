@@ -19,4 +19,5 @@ BOARD_USES_METADATA_PARTITION := true
 TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)
 
 # SHRP
+SHRP_DARK := false
 SHRP_FONP_1 := "/sys/class/leds/led:torch_0/brightness"
