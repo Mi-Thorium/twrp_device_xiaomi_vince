@@ -12,8 +12,5 @@ DEVICE_PATH := device/xiaomi/vince
 # Kernel
 TARGET_PREBUILT_KERNEL := device/xiaomi/kernel-mithorium/vince/Image.gz-dtb
 
-# Partitions
-BOARD_USES_METADATA_PARTITION := true
-
 # Recovery
 TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)
